@@ -5,13 +5,13 @@ Objective: Implement a simple indoor/outdoor temperature monitor using mbed obje
 
 Setup: The LM35's +Vs pin is connected to the mbed's VOUT, Vout pin connected to the mbed's p17, and GND connected to the mbed's GND. The MCP9700A is connected to the mbed the same way as the LM35, except the Vout pin is connected to the mbed's p16. A pushbutton switch is connected between p14 and VOUT, and another one is connected between p15 and VOUT.
 
-Each pin on the common cathode 7-segment LED display is connected to the mbed (with optional 220-ohm resistors) accordingly:
-	-pins 3,8 to GND
-	-pin 7 (seg a) to p5
-	-pin 6 (seg b) to p6
-	-pin 4 (seg c) to p7
-	-pin 2 (seg d) to p8
-	-pin 1 (seg e) to p9
-	-pin 9 (seg f) to p10
-	-pin 10 (seg g) to p11
-	-pin 5 (seg dp) to p12
+Each pin on the common cathode 7-segment LED display is connected to the mbed (with optional 220-ohm resistors) accordingly:  
+	-pins 3,8 to GND  
+	-pin 7 (seg a) to p5  
+	-pin 6 (seg b) to p6  
+	-pin 4 (seg c) to p7  
+	-pin 2 (seg d) to p8  
+	-pin 1 (seg e) to p9  
+	-pin 9 (seg f) to p10  
+	-pin 10 (seg g) to p11  
+	-pin 5 (seg dp) to p12  

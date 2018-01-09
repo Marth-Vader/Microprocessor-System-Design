@@ -2,7 +2,7 @@
 
 Contains projects using concepts and skills learned in Microprocessor System and Design. Code is written to interact with an ARM mbed. Each program has a specification containing the objective and setup.  
   
-  ItsLit: Logidd puzzle game  
+  ItsLit: Logic puzzle game  
   DigitalIn, DigitalOut, active-high/low switches and LEDs  
     
   ItsLit2: Simple musical instrument  
